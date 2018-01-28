@@ -17,13 +17,15 @@
     %div
   .header
     .header_list
-      .logo ロゴ入るよー
+      .logo
+        = image_tag "airbnb-logo.png", alt: "ロゴ", title: "ロゴ"
       .serach_area 検索窓
       .header_menu
-      %ul
-        %li お気に入り
-        %li 旅行
-        %li メッセージ
-        %li ヘルプ
-      .header_menu_host ホストを始める
-      .user
+        %ul
+          %li お気に入り
+          %li 旅行
+          %li メッセージ
+          %li ヘルプ
+      .header_menu_host
+        .header_menu_host_start ホストを始める
+      .user ユーザーの顔入ります

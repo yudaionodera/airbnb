@@ -1,16 +1,37 @@
 .header{
   .header_list{
-  float:left;
+      border-bottom: 1px solid #e4e4e4;
+      height:81px;
   .logo{
+    float:left;
+    height: 80px !important;
   }
   .serach_area{
+    float:left;
+    display: table-cell !important;
+    width: 774px !important;
+    vertical-align: middle !important;
   }
   .header_menu{
+    float:left;
   }
   .header_menu_host{
+    float:left;
+    .header_menu_host_start{
+    border: 1px solid !important;
+    border-color: #008489 !important;
+    border-radius: 4px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    font-size: 15px !important;
+    color: #008489 !important;
+    }
   }
   .user{
+    float:right;
   }
-  
+
   }
 }
