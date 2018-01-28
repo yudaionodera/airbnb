@@ -29,7 +29,6 @@ Things you may want to cover:
 |------|----|-------|
 |name|string|null: false, foreign_key: true|
 |image|string|null: false|
-|review_id|integer||
 
 
 ### Association
