@@ -26,6 +26,8 @@ doc/
 .DS_Store
 .idea
 .secret
+*.png
+
 
 /node_modules
 /yarn-error.log
