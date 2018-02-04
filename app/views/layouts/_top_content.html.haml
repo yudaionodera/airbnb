@@ -18,14 +18,49 @@
   .header
     .header_list
       .logo
-        = image_tag "airbnb-logo.png", alt: "ロゴ", title: "ロゴ"
-      .serach_area 検索窓
+        = image_tag "/app/assets/images/airbnb-logo.png",size: "34x34", alt: "logo"
+      .serach_area
+        %form._2930ex{:action => "/s/homes", :method => "get"}
+          ._17u98ky
+            ._gor68n
+              %div
+                ._e296pg
+                  ._9hxttoo
+                    %label._1m8bb6v{:for => "GeocompleteController-via-SearchBarV2-SearchBarV2"} 場所
+                    %div{:dir => "ltr"}
+                      ._ncmdki
+                      ._178faes
+                        %input#GeocompleteController-via-SearchBarV2-SearchBarV2._k3jto05{:autocomplete => "off", :name => "location", :placeholder => "どこでも", :type => "text", :value => "指定なし · 宿泊先"}/
       .header_menu
-        %ul
-          %li お気に入り
-          %li 旅行
-          %li メッセージ
-          %li ヘルプ
-      .header_menu_host
-        .header_menu_host_start ホストを始める
-      .user ユーザーの顔入ります
+        %nav
+          %ul._1s04l2o
+            %li._1g2dfiu
+              %button._hxsurab{"aria-busy" => "false", "aria-expanded" => "false", "aria-haspopup" => "true", :type => "button"}
+                ._zsx5dtm
+                  ._lvb55za
+                    ホストをはじめる
+                    %svg._l7gvu6{:focusable => "false"}
+                      %circle{:cx => "3", :cy => "3", :r => "3"}
+            %li._1g2dfiu
+              %button._hxsurab{"aria-busy" => "false", "aria-expanded" => "false", "aria-haspopup" => "true", :type => "button"}
+                ._zsx5dtm
+                  ._lvb55za
+                    旅行
+                    %svg._l7gvu6{:focusable => "false"}
+                      %circle{:cx => "3", :cy => "3", :r => "3"}
+            %li._1g2dfiu
+              %button._hxsurab{"aria-busy" => "false", "aria-expanded" => "false", "aria-haspopup" => "true", :type => "button"}
+                ._zsx5dtm
+                  ._lvb55za
+                    メッセージ
+                    %svg._l7gvu6{:focusable => "false"}
+                      %circle{:cx => "3", :cy => "3", :r => "3"}
+            %li._1g2dfiu
+              %button._hxsurab{"aria-busy" => "false", "aria-expanded" => "false", "aria-haspopup" => "true", :type => "button"}
+                ._zsx5dtm
+                  ._lvb55za
+                    ヘルプ
+                    %svg._l7gvu6{:focusable => "false"}
+                      %circle{:cx => "3", :cy => "3", :r => "3"}
+            %li._1g2dfiu
+              .user ユーザーの顔入ります

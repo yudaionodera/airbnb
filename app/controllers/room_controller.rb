@@ -1,5 +1,6 @@
 class RoomController < ApplicationController
   def index
+    @room
   end
 
   def new
@@ -11,12 +12,15 @@ class RoomController < ApplicationController
   def show
   end
 
+  def create
+   @room
+ end
   def update  #ここもいらないかも。
   end
 
-  def destroy  #ここいらないかも。画面遷移しないから。
+  def destroy  #ここøいらないかも。画面遷移しないから。
   end
 
 
-  end
+
 end
