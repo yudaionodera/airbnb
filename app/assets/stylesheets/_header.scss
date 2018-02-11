@@ -19,7 +19,6 @@
           ._e296pg{
             ._9hxtto{
               label._1m8bb6v{
-
               }
             .div{
               ._ncmdki{
@@ -127,12 +126,14 @@
     font-size: 28px !important;
     line-height: 32px !important;
     letter-spacing: -0.6px !important;
-    padding-top: 2px !important;
+    padding-top: 100px !important;
     padding-bottom: 2px !important;
     color: #484848 !important;
   }
   .main_contents_menu_select_row{
+
     .main_contents_menu_select_row_accomodation{
+      float:left;
       button._6m75u2{
         background-color: transparent !important;
         border: 1px solid rgba(0,0,0,0.1) !important;
@@ -162,6 +163,7 @@
       }
     }
     .main_contents_menu_select_row_experience{
+      float:left;
       button._6m75u2{
         background-color: transparent !important;
         border: 1px solid rgba(0,0,0,0.1) !important;
@@ -191,6 +193,7 @@
       }
     }
     .main_contents_menu_select_row_restaurant{
+      float:left;
       button._6m75u2{
         background-color: transparent !important;
         border: 1px solid rgba(0,0,0,0.1) !important;
@@ -219,5 +222,10 @@
         }
       }
     }
+  }
+  .clearfix{
+    display: block;
+    clear:both;
+
   }
 }
