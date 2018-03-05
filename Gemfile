@@ -44,6 +44,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'devise'
 end
 
 group :development do
@@ -54,6 +55,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'rspec'
+  gem 'devise'
 end
 
 group :test do
@@ -62,6 +64,7 @@ end
 
 group :production do
      gem 'unicorn'
+     gem 'devise'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
