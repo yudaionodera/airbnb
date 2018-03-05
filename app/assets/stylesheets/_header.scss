@@ -1,0 +1,190 @@
+.header{
+  background-color: transparent !important;
+  box-shadow: none !important;
+  position: absolute !important;
+  top: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  .header_list{
+      border-bottom: 1px solid #e4e4e4;
+      height:81px;
+  .logo{
+    display: table-cell !important;
+    vertical-align: middle !important;
+  }
+  .serach_area{
+    display: table-cell !important;
+    width: 774px !important;
+    vertical-align: middle !important;
+    form._2930ex{
+      display: table !important;
+      width: 100% !important;
+      .gor68n{
+        .div{
+          ._e296pg{
+            ._9hxtto{
+              label._1m8bb6v{
+              }
+            .div{
+              ._ncmdki{
+
+              }
+              ._178faes{
+                width:30px;
+                input#GeocompleteController-via-SearchBarV2-SearchBarV2._k3jto05{
+                  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+                  font-size: 15px !important;
+                  line-height: 18px !important;
+                  letter-spacing: 0.2px !important;
+                  padding-top: 0px !important;
+                  padding-bottom: 0px !important;
+                  color: #484848 !important;
+                  border-radius: 4px !important;
+                  cursor: pointer !important;
+                  display: inline !important;
+                  height: 48px !important;
+                  text-align: left !important;
+                  padding: 7px 8px !important;
+                  position: relative !important;
+                  width: 100% !important;
+                  white-space: nowrap !important;
+                  overflow: hidden !important;
+                  text-overflow: ellipsis !important;
+                  outline: none !important;
+                  -webkit-backdrop-filter: none !important;
+                  backdrop-filter: none !important;
+                  background: none !important;
+                  box-shadow: none !important;
+                  border: none !important;
+                }
+              }
+            }
+            }
+          }
+        }
+      }
+    }
+  }
+  .header_menu{
+    display: table-cell !important;
+    vertical-align: middle !important;
+    nav{
+      ul._1s04l2o{
+        box-sizing: border-box;
+        li._1g2dfiu{
+          display: table-cell !important;
+          text-align: -webkit-match-parent;
+          button._hxsurab{
+          border-style: none;
+          height: 80px !important;
+          line-height: 80px !important;
+          ._zsx5dtm{
+            height: 100% !important;
+            vertical-align: middle !important;
+            -moz-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+            border-bottom: none !important;
+              ._lvb55za{
+                display: inline-block !important;
+                padding: 8px !important;
+                vertical-align: middle !important;
+                line-height: 1 !important;
+                border-bottom: 2px solid transparent !important;
+                svg._l7gvu6{
+                  fill: #008489 !important;
+                  height: 6px !important;
+                  opacity: 0 !important;
+                  position: absolute !important;
+                  top: 50% !important;
+                  -webkit-transform: translate3d(4px, -8px, 0) !important;
+                  -ms-transform: translate3d(4px, -8px, 0) !important;
+                  transform: translate3d(4px, -8px, 0) !important;
+                  -webkit-transform-origin-x: 7px !important;
+                  -ms-transform-origin-x: 7px !important;
+                  transform-origin-x: 7px !important;
+                  -webkit-transform-origin-y: -5px !important;
+                  -ms-transform-origin-y: -5px !important;
+                  transform-origin-y: -5px !important;
+                  width: 6px !important;
+                  circle{
+
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .header_menu_host{
+    float:left;
+    .header_menu_host_start{
+    border: 1px solid !important;
+    border-color: #008489 !important;
+    border-radius: 4px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    font-size: 15px !important;
+    color: #008489 !important;
+    }
+  }
+  .user{
+    float:right;
+    button._gngqxi{
+      height: 80px !important;
+      line-height: 80px !important;
+      border-style: none;
+      ._18lcoy3z{
+        height: 100% !important;
+        vertical-align: middle !important;
+        -moz-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+        border-bottom: 2px solid transparent !important;
+        ._lvb55za{
+          display: inline-block !important;
+          padding: 8px !important;
+          vertical-align: middle !important;
+          line-height: 1 !important;
+          border-bottom: 2px solid transparent !important;
+          ._1r3wpux{
+            background-color: #F2F2F2 !important;
+            box-shadow: 0 0 0 2px #DBDBDB !important;
+            border-radius: 50% !important;
+            display: inline-block !important;
+            overflow: hidden !important;
+            vertical-align: middle !important;
+            width: 28px !important;
+            height: 28px !important;
+            img._1pa4v1p{
+              border: 0px;
+            }
+          }
+          svg._l7gvu6{
+            fill: #008489 !important;
+            height: 6px !important;
+            opacity: 0 !important;
+            position: absolute !important;
+            top: 50% !important;
+            -webkit-transform: translate3d(4px, -8px, 0) !important;
+            -ms-transform: translate3d(4px, -8px, 0) !important;
+            transform: translate3d(4px, -8px, 0) !important;
+            -webkit-transform-origin-x: 7px !important;
+            -ms-transform-origin-x: 7px !important;
+            transform-origin-x: 7px !important;
+            -webkit-transform-origin-y: -5px !important;
+            -ms-transform-origin-y: -5px !important;
+            transform-origin-y: -5px !important;
+            width: 6px !important;
+            circle{
+
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+}
