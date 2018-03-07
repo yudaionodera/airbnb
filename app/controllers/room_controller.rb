@@ -1,6 +1,6 @@
 class RoomController < ApplicationController
   def index
-    @room
+    @rooms = Room.all
   end
 
   def new
