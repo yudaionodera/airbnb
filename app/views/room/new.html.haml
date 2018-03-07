@@ -1,0 +1,9 @@
+.contents.row
+  = form_for(@room, url: room_path(@room), html: {method: "patch"}) do |f|
+    .main__contents__footer-body-icon
+      = f.text_field :name, class:"form__mask__image"
+      = f.text_field :image, class:"form__mask__image"
+      = f.text_field :country, class:"form__mask__image"
+      = f.text_field :text, class:"form__mask__image"
+      = f.text_field :price, class:"form__mask__image"
+      = f.submit :name, value: "SEND", class: "form__submit",data: {disable_with: "SEND..."}
