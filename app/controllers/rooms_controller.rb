@@ -16,6 +16,7 @@ class RoomsController < ApplicationController
 
   def create
    Room.create(room_params)
+   # binding.pry
    redirect_to root_path, notice: "部屋を登録しました。"
   end
 
@@ -28,7 +29,7 @@ class RoomsController < ApplicationController
 
   private
   def room_params
-    params.require(:room).permit(:name, :image,:country, :price).merge(user_id: params[:uesr_id])
+    params.require(:room).permit(:name, :image,:text, :country, :price).merge(user_id: current_user.id)
   end
 
 end
