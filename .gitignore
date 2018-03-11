@@ -28,6 +28,7 @@ doc/
 .secret
 *.png
 *.jpg
+*.jpeg
 *.tags
 .tags/.tags1
 
