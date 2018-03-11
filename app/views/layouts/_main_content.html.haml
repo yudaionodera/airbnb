@@ -47,8 +47,10 @@
   .main_contents_visit
     %h3._1oztv2zd 今週末まで！
 = render 'layouts/buttom_content'
--#  画像表示
+
+-#画像表示
 -#   %if @user.image?
--#     %=image_tag @user.image.thumb.url
--# 　%else
+-#     %= image_tag @user.image.thumb.url
+       %= image_tag user.image.to_s
+-#   %else
 -#     %=image_tag 'noimage.gif'
