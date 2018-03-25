@@ -11,7 +11,8 @@
                   ._goo6eo
                     %button._hmv3b92{"aria-label" => "View all photos. Photo 1 out of 26."}
                       ._e296pg
-                        %img._180xebri{:alt => "wa,空中花园", :src => "https://www.ritz-carlton.co.jp/assets/images/home/kv-01.jpg"}/
+                        -# %img._180xebri{:alt => "wa,空中花园", :src => "https://www.ritz-carlton.co.jp/assets/images/home/kv-01.jpg"}/
+                        = image_tag @room.image.to_s
                 ._n5lh69r
       %div
     .room__dls{:style => "margin-left: 50px;"}
@@ -96,8 +97,7 @@
                             %div
                               ._1m8bb6v{"aria-hidden" => "true"}
                                 %div{:lang => "ja-x-mtfrom-und",:style => "margin-right:50px"}
-                                  ザ・リッツ・カールトン は、世界規模でホテル・チェーンを展開するホテルブランドのひとつで、マリオット・インターナショナルのホテルブランド。マリオット・インターナショナルのブランドのひとつではあるが、従来のマリオット・インターナショナルに属している他のブランドとは一線を画した運営を行っています。
-                                  -# = room.text
+                                  = @room.text
                           %div{:style => "margin-top:16px"}
                             %div
                               ._y9ev9r
