@@ -63,6 +63,7 @@ Things you may want to cover:
 
 ## Reservationsテーブル
 |Column|Type|Options|
+|------|----|-------|
 |user_id|bigint||
 |room_id|bigint||
 |start_date|datetime||
