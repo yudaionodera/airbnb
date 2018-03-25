@@ -35,7 +35,7 @@ Things you may want to cover:
 - has_many :houses
 - has_many :reviews
 
-## housesテーブル
+## roomsテーブル
 
 |Column|Type|Options|
 |------|----|-------|
@@ -60,3 +60,21 @@ Things you may want to cover:
 ### Association
 - belong_to :user
 - belong_to :house
+
+## Reservationsテーブル
+|Column|Type|Options|
+|user_id|bigint||
+|room_id|bigint||
+|start_date|datetime||
+|end_date|datetime||
+|price|integer||
+|total|integer||
+|created_at|datetime|null: false|
+|updated_at|datetime|null: false|
+|status|integer|dafault: 0|
+|index_reservations_on_room_id|index ["room_id"]||
+|index_reservations_on_user_id|index ["user_id"]||
+
+### Association
+- belong_to :user
+- belong_to :room
