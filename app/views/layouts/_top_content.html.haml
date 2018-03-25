@@ -18,7 +18,7 @@
   .header
     .header_list
       .logo
-        = image_tag "/app/assets/images/airbnb-logo.png",size: "34x34", alt: "logo"
+        = link_to image_tag("https://seeklogo.com/images/A/airbnb-logo-7F4086530F-seeklogo.com.png",size: "34x34", alt: "logo"),rooms_path
       .serach_area
         %form._2930ex{:action => "/s/homes", :method => "get"}
           ._17u98ky
@@ -30,12 +30,7 @@
                     %div{:dir => "ltr"}
                       ._ncmdki
                       ._178faes
-                        %input#GeocompleteController-via-SearchBarV2-SearchBarV2._k3jto05{:autocomplete => "off", :name => "location", :placeholder => "どこでも", :type => "text", :value => "指定なし · 宿泊先"}/
-                        -# %button._2mvez7y{:type => "button"}
-                        -#   %span._12hl23n
-                        -#     %svg{"aria-hidden" => "true", :focusable => "false", :role => "presentation", :style => "height: 16px; width: 16px; display: block; fill: currentcolor;", :viewbox => "0 0 24 24"}
-                        -#       %path{:d => "m10.4 18.2c-4.2-.6-7.2-4.5-6.6-8.8.6-4.2 4.5-7.2 8.8-6.6 4.2.6 7.2 4.5 6.6 8.8-.6 4.2-4.6 7.2-8.8 6.6m12.6 3.8-5-5c1.4-1.4 2.3-3.1 2.6-5.2.7-5.1-2.8-9.7-7.8-10.5-5-.7-9.7 2.8-10.5 7.9-.7 5.1 2.8 9.7 7.8 10.5 2.5.4 4.9-.3 6.7-1.7v.1l5 5c .3.3.8.3 1.1 0s .4-.8.1-1.1", "fill-rule" => "evenodd"}
-                        -#   %span._14aozyc 「東京」などエリアを入力
+                        %input#GeocompleteController-via-SearchBarV2-SearchBarV2._k3jto05{:autocomplete => "off", :name => "location", :placeholder => "どこでも", :type => "text", :value => "指定なし · 宿泊先", :style => "width: 100%;" }/
       .header_menu
         %nav
           %ul._1s04l2o
@@ -43,7 +38,7 @@
               %button._hxsurab{"aria-busy" => "false", "aria-expanded" => "false", "aria-haspopup" => "true", :type => "button"}
                 ._zsx5dtm
                   ._lvb55za
-                    ホストをはじめる
+                    = link_to "ホストになる", new_room_path, method: :get, class: 'btn'
                     %svg._l7gvu6{:focusable => "false"}
                       %circle{:cx => "3", :cy => "3", :r => "3"}
             %li._1g2dfiu

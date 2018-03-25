@@ -27,7 +27,10 @@ doc/
 .idea
 .secret
 *.png
-
+*.jpg
+*.jpeg
+*.tags
+.tags/.tags1
 
 /node_modules
 /yarn-error.log

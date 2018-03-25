@@ -1,0 +1,30 @@
+.contents.row{:style => "margin-top: 100px;"}
+  = form_for @room do |f|
+    .main__rooms__footer-body-icon
+      .room-form__field.clearfix
+        .room-form__field--left
+          = f.label :name,"名前", class: "chat-group-form__label"
+        .room-form__field--right
+          = f.text_field :name, class:"form__mask__image"
+      .room-form__field.clearfix
+        .room-form__field--left
+          = f.label :image,"画像", class: "chat-group-form__label"
+        .room-form__field--right
+          = f.file_field :image, class:"form__mask__image"
+      .room-form__field.clearfix
+        .room-form__field--left
+          = f.label :name,"国", class: "chat-group-form__label"
+        .room-form__field--right
+          = f.text_field :country, class:"form__mask__image"
+      .room-form__field.clearfix
+        .room-form__field--left
+          = f.label :name,"説明", class: "chat-group-form__label"
+        .room-form__field--right
+          = f.text_field :text, class:"form__mask__image"
+      .room-form__field.clearfix
+        .room-form__field--left
+          = f.label :name,"金額", class: "chat-group-form__label"
+        .room-form__field--right
+          = f.text_field :price, class:"form__mask__image"
+      .room-form__field.clearfix
+        = f.submit :name, value: "SEND", class: "form__submit",data: {disable_with: "SEND..."}
