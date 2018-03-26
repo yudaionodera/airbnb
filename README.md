@@ -62,6 +62,7 @@ Things you may want to cover:
 - belong_to :house
 
 ## Reservationsテーブル
+
 |Column|Type|Options|
 |------|----|-------|
 |user_id|bigint||
