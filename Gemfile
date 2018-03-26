@@ -45,6 +45,8 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'devise'
+  gem 'carrierwave'
+  gem 'mini_magick'
 end
 
 group :development do
@@ -56,15 +58,24 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'rspec'
   gem 'devise'
+  gem 'carrierwave'
+  gem 'mini_magick'
+  gem 'pry-rails'
 end
 
 group :test do
      gem 'rspec'
+     gem 'carrierwave'
+     gem 'mini_magick'
+     gem 'pry-rails'
 end
 
 group :production do
      gem 'unicorn'
      gem 'devise'
+     gem 'carrierwave'
+     gem 'mini_magick'
+     gem 'pry-rails'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -29,6 +29,11 @@ doc/
 *.png
 *.jpg
 *.jpeg
+<<<<<<< HEAD
+=======
+*.tags
+.tags/.tags1
+>>>>>>> origin/master
 
 /node_modules
 /yarn-error.log
